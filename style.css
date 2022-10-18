@@ -1,0 +1,108 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    background-image: url(/desktop/image-hero.jpg);
+    height: 90vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+}
+.logo {
+    font-size: 50px;
+    color: white;
+    margin: auto;
+    font-family: calibri;
+    width: 85%;
+    padding-top: 50px;
+}
+nav>ul {
+    display: flex;
+    padding: 10px;
+    float: right;
+    margin-right: 150px;
+    position: relative;
+    top: -70px;
+}
+nav>ul li {
+    padding: 10px;
+    list-style-type: none;
+}
+nav>ul li a {
+    text-decoration: none;
+    color: white;
+    font-family: calibri;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+p{
+    margin: auto;
+    color: white;
+    font-family: Calibri;
+    font-size: 70px;
+    padding: 50px;
+    position: relative;
+    border: 2px solid white;
+    width: 450px;
+    height: fit-content;
+    right: 410px;
+    top: 90px;
+}
+.header{
+    position: relative;
+    background-image: url("/desktop/image-interactive.jpg");
+    background-repeat: no-repeat;
+    height: 340vh;
+    top:67px ;
+    left: 53px;
+    width: 40%;
+    background-size: contain;
+}
+.head{
+    position: relative;
+    top: 100px;
+    height: 340vh;
+    width: 40%;
+    left: 500px;
+    border: 1px white;
+    background-color: white;
+}
+.leaders{
+    position: relative;
+    left: 340px;
+    top: 90px;
+    width: 230px;
+    font-size:20px;
+    font-weight: 800;
+    font-stretch: expanded;
+}
+.lead{
+    position: relative;
+    left: 330px;
+    top:100px;
+    font-size: x-small;
+    font-weight: 100;
+}
+.sub-heading{
+    top: 250px;
+    left: -770px;
+    position: relative;
+    font-size:large;
+    font-weight: 700;
+    font-family:calibri ;
+}
+.see{
+    position: relative;
+    top: 200px; 
+    background-color: black;
+    color: white;
+    width: auto;
+    height: auto;
+    font-weight: 300;
+}
+.see:hover{
+    background-color: white;
+}
